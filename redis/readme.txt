@@ -13,8 +13,9 @@ cd /usr/local/redis
 ./bin/redis-server ./redis.conf
 
 快速安装步骤(只需粘贴即可安装成功)：
-yum -y install gcc-c++
 wget http://download.redis.io/releases/redis-5.0.7.tar.gz
+
+yum -y install gcc-c++
 tar -zxvf redis-5.0.7.tar.gz
 cd redis-5.0.7
 make
