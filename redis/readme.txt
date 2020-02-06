@@ -24,7 +24,7 @@ cd
 cd redis-5.0.7
 cp redis.conf /usr/local/redis
 
-将/usr/local/redis目录下的conf配置文件中的daemonize改为yes
+将/usr/local/redis目录下的conf配置文件中的daemonize改为yes，注释掉bind 127.0.0.1，将protected mode改为no
 
 cd /usr/local/redis
 ./bin/redis-server ./redis.conf
